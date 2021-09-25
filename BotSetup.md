@@ -3,13 +3,15 @@
 
 **Zeppelin self hosting. Its not too easy, but its also not impossible**
 
+> THIS WILL BE GETTING REGULAR UPDATES, SO PLEASE BE PATIENT IF SOMETHING IS NOT RIGHT!
+
 **Initial info for zeppelin**
 
 > Zeppelin is a Discord bot that is designed to be very customisable and have a lot of flexibility for all server types. It is open source and anyone can self host it whenever they want.
 
 **Starting off**
 
-> There are 2 main requirements for Zeppelin. they are as follows: **Node.js version 16.6.0 (https://nodejs.org/download/release/v16.6.0/)** - **MariaDB version 10.6.4 (https://mariadb.org/download/)**
+> There are 2 main requirements for Zeppelin. they are as follows: **Node.js version 16.6.0 (https://nodejs.org/download/release/v16.6.0/)** - **MariaDB version 10.6.4 (https://mariadb.org/download/)**. some of these are not 100% neccesary, but are nice to have in the future.
 
 **initial setup**
 
@@ -23,7 +25,7 @@
 
 **Step 2**
 
-> Now you need to open up an app called **HeidiSQL**. This is the database manager, and should act as a place where you can manage the database. Once You have opened it, look to the bottom left where it says **new**. Click this and create a new database. call it **zeppelin**. once you have done this, look to the right side of the window. this will show the options for a user and password. fill these in with **root** for the user and **root** for the password. Click done and then you should be loaded into another window. in the column on the left, right click and hover over the **Create new** option. in the popup menu, select the **Database** option. once again, name the database **zeppelin**, and we can leave it here for now.
+> Now you need to open up an app called **HeidiSQL**. This is the database manager, and should act as a place where you can manage the database. Once You have opened it, look to the bottom left where it says **new**. Click this and create a new database. call it **zeppelin**. once you have done this, look to the right side of the window. this will show the options for a user and password. fill these in with **root** for the user and **root** for the password. Click done and then you should be loaded into another window. in the column on the left, right click and hover over the **Create new** option. in the popup menu, select the **Database** option. once again, name the database **zeppelin**, and we can leave it here for now. **(THIS CAN ALL BE DONE INSIDE OF CLI IF NECCESARY)**
 
 **Step 3**
 
@@ -52,11 +54,11 @@
 
 **Step 8**
 
-> Now its time to get things up and running. open up HeidiSQL again and at the top of the tables interface there should be a small blue box that says Query*. click on this and there is two commands you need to enter into here. Firstly, copy and paste this into the query tab -> ```SHOW GLOBAL VARIABLES LIKE 'time_zone';``` . Now, press F9 on your keyboard. things should run automatically and be finished instantly. Secondly, clear out the same query tab until there is nothing in there. now, paste this into it -> ```SET GLOBAL time_zone = '+0:00';``` . Just like before, press F9 and things should run instantly and will be finished almost instantly. Congratulations, youre 2/3 of your way there now!
+> Now its time to get things up and running. open up HeidiSQL again and at the top of the tables interface there should be a small blue box that says Query*. click on this and there is two commands you need to enter into here. Firstly, copy and paste this into the query tab -> ```SHOW GLOBAL VARIABLES LIKE 'time_zone';``` . Now, press F9 on your keyboard. things should run automatically and be finished instantly. Secondly, clear out the same query tab until there is nothing in there. now, paste this into it -> ```SET GLOBAL time_zone = '+0:00';``` . Just like before, press F9 and things should run instantly and will be finished almost instantly. Congratulations, youre 2/3 of your way there now! **(every time you reset the database you will need to re-run the commands, so it is not reccomended for use 24/7)**
 
 **Step 9**
 
-> Now, things are starting to get serious. Close down all open terminals and open up a brand new one. run the command ```cd backend``` . oonce you are in this directory, run the command ```npm run migrate-dev``` . A lot of things will happen here. it is important to note that you will need to give it time. once this is all done, you shoud be greeted by a message saying it is complete. finally, run the command ```npm run watch``` . This will start the bot and will get everything running. If any errors pop up, ask for help on them in the suppourt server. Congrats, there is one last step. getting the dashboard online.
+> Now, things are starting to get serious. Close down all open terminals and open up a brand new one. run the command ```cd backend``` . oonce you are in this directory, run the command ```npm run migrate-prod``` . A lot of things will happen here. it is important to note that you will need to give it time. once this is all done, you shoud be greeted by a message saying it is complete. finally, run the command ```npm run watch``` . This will start the bot and will get everything running. If any errors pop up, ask for help on them in the suppourt server. Congrats, there is one last step. getting the dashboard online.
 
 **Step 10**
 
