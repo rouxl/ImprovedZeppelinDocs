@@ -33,7 +33,7 @@
 
 **Step 4**
 
-> head to the discord developers portal and create a new application. Call it what you want and then navigate to the Bot tabb on the left side. Scroll down until you see two toggles under **Priviledged Gateway Intents**. Enable **Both** of the two toggles. once done, go to the left column and selct the **Oauth2** option. Where it says Redirects, input these four Redirects into seperate options. **http://localhost:1234**,**http://localhost:1234/auth/oauth-callback**,**http://localhost:8800** and **http://localhost:8800/auth/oauth-callback**. If you have done things correctly, it should look like this: .
+> head to the discord developers portal and create a new application. Call it what you want and then navigate to the Bot tabb on the left side. Scroll down until you see two toggles under **Priviledged Gateway Intents**. Enable **Both** of the two toggles. once done, go to the left column and selct the **Oauth2** option. Where it says Redirects, input these four Redirects into seperate options. **http://localhost:1234 , http://localhost:1234/auth/oauth-callback , http://localhost:8800** and **http://localhost:8800/auth/oauth-callback**. If you have done things correctly, it should look like this: .
 
 ![dev portal redirects](assets/image2.PNG)
 
