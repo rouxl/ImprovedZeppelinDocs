@@ -1,5 +1,5 @@
 # Zeppelin Setup Guide By @Lando Calrissian#0001
-![Zeppelin Banner](assets/zeppelinbanner.png)
+![Zeppelin Banner](assets/zeppelinbanner.jpg)
 
 **Zeppelin self hosting. Its not too easy, but its also not impossible**
 
@@ -21,7 +21,7 @@
 
 > Alright, start by creating a folder on your desktop. Call it the name of your bot. This will be where all of the Bot's files will be. Open this folder inside of **Visual Studio Code** Once it is open, it should look like this:
 
-// image 1
+![vscode start](assets/image1.PNG)
 
 **Step 2**
 
