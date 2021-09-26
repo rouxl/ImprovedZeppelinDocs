@@ -1,6 +1,8 @@
 # Zeppelin Setup Guide By @Lando Calrissian#0001
 ![Zeppelin Banner](assets/zeppelinbanner.jpg)
 
+**Consider putting a ⭐️ on this repo if you find it helpful!**
+
 **Zeppelin self hosting. Its not too easy, but its also not impossible**
 
 > THIS WILL BE GETTING REGULAR UPDATES, SO PLEASE BE PATIENT IF SOMETHING IS NOT RIGHT!
