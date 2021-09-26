@@ -41,8 +41,8 @@
 
 > Now, youre ready to start getting the bot ready. open vscode back up and you should see a file with the name **.env.example** . click the new file button and name a new file **.env** . inside of here, paste this -> KEY="abcdefghijklmnopqrstuvwxy1234567" . Once this is done, open up the Dashboard folder. in here there will be another **.env.example** file. Just like before, create a new file called **.env** in the same place. inside of here, paste this -> API_URL="http://localhost:8800" . Brilliant, now for the second part. Open up the Backend folder and here you will see **bot.env.example** and **api.env.example** . just like the past two files, crate new ones, but this time you want to call them **bot.env** and **api.env** . for the bot.env and api.env files, look at the two images below to see what you need to put in them to make them work. the Token, client id and client secret can all be found on the discord developers portal. if you need any help, send a message in the zeppelin suppourt server and someone will be there to help you. Once youve done this, its time to move on.
 
-// image 3
-// image 4
+![api.env](assets/image3.PNG)
+![bot.env](assets/image4.PNG)
 
 **Step 6**
 
