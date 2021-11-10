@@ -15,7 +15,7 @@
 
 > There are 2 main requirements for Zeppelin. they are as follows: **Node.js version 16.6.0 (https://nodejs.org/download/release/v16.6.0/)** - **MariaDB version 10.6.4 (https://mariadb.org/download/)**. some of these are not 100% neccesary, but are nice to have in the future.
 
-**initial setup**
+**Initial setup**
 
 > Download the neccesary resources from the Links above. Once you have done this, follow the steps below to Begin your journey to self-hosting Zeppelin!
 
@@ -31,11 +31,11 @@
 
 **Step 3**
 
-> go back into vscode and open up the folder you created on your desktop. once you have opened it, open a new terminal inside of vscode and run this command -> ```git clone https://github.com/Dragory/ZeppelinBot.git```. let this run, and it should only take a few moments to finish. once it is complete, open up the new folder it created as your new "root" folder (basically open the folder it literally just created)
+> Go back into vscode and open up the folder you created on your desktop. once you have opened it, open a new terminal inside of vscode and run this command -> ```git clone https://github.com/Dragory/ZeppelinBot.git```. let this run, and it should only take a few moments to finish. once it is complete, open up the new folder it created as your new "root" folder (basically open the folder it literally just created)
 
 **Step 4**
 
-> head to the discord developers portal and create a new application. Call it what you want and then navigate to the Bot tabb on the left side. Scroll down until you see two toggles under **Priviledged Gateway Intents**. Enable **Both** of the two toggles. once done, go to the left column and selct the **Oauth2** option. Where it says Redirects, input these four Redirects into seperate options. **http://localhost:1234 , http://localhost:1234/auth/oauth-callback , http://localhost:8800** and **http://localhost:8800/auth/oauth-callback**. If you have done things correctly, it should look like this: .
+> Head to the discord developers portal and create a new application. Call it what you want and then navigate to the Bot tabb on the left side. Scroll down until you see two toggles under **Priviledged Gateway Intents**. Enable **Both** of the two toggles. once done, go to the left column and selct the **Oauth2** option. Where it says Redirects, input these four Redirects into seperate options. **http://localhost:1234 , http://localhost:1234/auth/oauth-callback , http://localhost:8800** and **http://localhost:8800/auth/oauth-callback**. If you have done things correctly, it should look like this: .
 
 ![dev portal redirects](assets/image2.PNG)
 
@@ -52,7 +52,7 @@
 
 **Step 7**
 
-> now its time to get serious. open up a new terminal inside of vscode and run the following command -> ```cd backend```. this will enter you into the 'backend' directory. now, you want to run the command -> ```npm ci```. a lot of things will happen in the terminal, but jut give it some time and it will complete what it needs to do. Now, you want to open up a different terminal in vscode and run these commands. firstly, do ```cd dashboard``` to enter the dahboard directory. inside of here, run the command ```npm ci```, just like before. once this is all done, you have passed the most crucial part of bot setup
+> Now its time to get serious. open up a new terminal inside of vscode and run the following command -> ```cd backend```. this will enter you into the 'backend' directory. now, you want to run the command -> ```npm ci```. a lot of things will happen in the terminal, but jut give it some time and it will complete what it needs to do. Now, you want to open up a different terminal in vscode and run these commands. firstly, do ```cd dashboard``` to enter the dahboard directory. inside of here, run the command ```npm ci```, just like before. once this is all done, you have passed the most crucial part of bot setup
 
 **Step 8**
 
@@ -64,8 +64,8 @@
 
 **Step 10**
 
-> keeping the last terminal open, create a new one and then follow these commands -> ```cd dashboard``` . next, run the single command ```npm run watch``` . Once this command has ran, the bottom line should say **Compiled Succesfuly**. navigate to any browser now. In the search bar, type in ```localhost:1234``` . The dashboard should load soon. Once it has loaded, click the dashboard button and then follow the discord oauth2 redirects. If all works, you should load staright into the dashbaord and you should be ready to begin your configuration of the bot for your server.
+> Keeping the last terminal open, create a new one and then follow these commands -> ```cd dashboard``` . next, run the single command ```npm run watch``` . Once this command has ran, the bottom line should say **Compiled Succesfuly**. navigate to any browser now. In the search bar, type in ```localhost:1234``` . The dashboard should load soon. Once it has loaded, click the dashboard button and then follow the discord oauth2 redirects. If all works, you should load staright into the dashbaord and you should be ready to begin your configuration of the bot for your server.
 
-**Congratulations, you've made it! Zeppelin has been set up, but this isnt the end, you will need to configure the bot for your server now. take a look at (https://github.com/dexbiobot/Zeppelin) on how to configure the bot for your server. This can be challenging, but youve made it this far so things will be easier for you.**
+**Congratulations, you've made it! Zeppelin has been set up, but this isnt the end, you will need to configure the bot for your server now. take a look at (https://github.com/dexbiobot/Zeppelin) on how to configure the bot for your server. This can be challenging, but you've made it this far so things will be easier for you.**
 
-**i will update this repository with any neccesary info as time goes on**
+**I will update this repository with any neccesary info as time goes on**
