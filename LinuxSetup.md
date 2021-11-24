@@ -18,9 +18,9 @@ https://github.com/Dragory/ZeppelinBot/pull/232/files
 ## Install Necessary Software
 
 1. `sudo apt -y install mariadb-server git nano curl build-essential nginx`
-  - Mariadb for database (not MySQL)
-  - Git for copying the bot code and future updates
-  - Nano for editing text files
+    - Mariadb for database (not MySQL)
+  * Git for copying the bot code and future updates
+    *- Nano for editing text files
   - Curl for downloading certain installation scripts
   - build-essential is needed for building the bot
   - Nginx to serve web files for the dashboard, which is where the config is edited/built
