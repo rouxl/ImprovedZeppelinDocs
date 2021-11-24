@@ -91,7 +91,7 @@ We'll fill in these env files later. First we need to set up the database
     - Replace **ENTER_DATABASE_PASSWORD** with a password of your choosing, but keep the single quotes.
 5. `grant all on *.* to 'root'@'localhost' identified by 'ENTER_YOUR_ROOT_PASSWORD_HERE' with grant option;`
     - Replace **ENTER_YOUR_ROOT_PASSWORD_HERE** with your root MySQL password, or leave it blank if you don't have one. Either way, make sure to keep the single quotes.
-6. create database zeppelin;
+6. `create database zeppelin;`
 7. `grant all on zeppelin.* to 'zeppelin'@'localhost' identified by 'ENTER_DATABASE_PASSWORD' with grant option;`
     - Replace **ENTER_DATABASE_PASSWORD** with the same password you chose in step 2, but keep the single quotes.
 8. `flush privileges;`
